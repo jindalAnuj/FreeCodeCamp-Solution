@@ -1,0 +1,77 @@
+<head>
+
+
+</head>
+
+
+<main>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <div>
+        <h1 id="title">Survey Form</h1>
+    </div>
+    <div>
+        <p id="description">
+            This is a Form.
+        </p>
+        <div id="form-div">
+            <form id="survey-form" action="/submit" method="GET">
+                <label id="name-label">* Name:</label>
+                <input id="name" type="text" placeholder="Enter Your Name" name="name" required>
+                <label id="email-label">* Email</label>
+                <input id="email" type="email" placeholder="Enter Your Email" name="email" required>
+                <label id="number-label">* Age</label>
+                <input id="number" type="number" placeholder="Enter Your Age" min="1" max="125" name="number" required>
+                <label id="dropdown-label">What Do you Like About OpenSource: </label>
+                <select id="dropdown">
+                    <option value="choose" disabled value>Select a Value</option>
+                    <option value="Collab">Collabration</option>
+                    <option value="Code">Pre Wriiten Code</option>
+                    <option value="comm">Community</option>
+                    <option value="know">Knowlwdge Enhancement</option>
+                </select>
+                <label>How much Do you like OpenSource?
+                </label>
+                <ul class="radio-btn">
+                    <li>
+                        <label class="radio-btn">Superb:
+                            <input type="radio" value="1" name="radio">1</input>
+                        </label>
+                    </li>
+                    <li>
+                        <label class="radio-btn">Extremly Awesome
+                            <input type="radio" value="2" name="radio">2</input>
+                        </label>
+                    </li>
+                    <li>
+                        <label class="radio-btn">Good
+                            <input type="radio" value="3" name="radio">3</input>
+                        </label>
+                    </li>
+                </ul>
+                <label>Where you can to know OpenSource
+                </label>
+                <ul class="check-btn">
+                    <li>
+                        <label class="check-choice">Superb:
+                            <input type="checkbox" value="1"></input>
+                        </label>
+                    </li>
+                    <li>
+                        <label class="check-choice">Extremly Awesome
+                            <input type="checkbox" value="2"></input>
+                        </label>
+                    </li>
+                    <li>
+                        <label class="check-choice">Good
+                            <input type="checkbox" value="3"></input>
+                        </label>
+                    </li>
+                </ul>
+                <label id="textarea-label"  >Add Additional Comments</label>
+                <textarea id="textarea" name="Comments" placeholder="Add Additional Comments on OpenSource....."></textarea>
+                <button id="submit" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</main>

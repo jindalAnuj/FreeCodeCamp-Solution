@@ -1,0 +1,22 @@
+main
+{
+    flex: auto;
+}
+label
+{
+ display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin: auto;
+}
+input
+{
+ display: inline-block;
+  text-align: left;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin: auto;
+}
