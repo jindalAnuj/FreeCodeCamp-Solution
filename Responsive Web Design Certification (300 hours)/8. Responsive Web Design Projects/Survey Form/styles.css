@@ -11,6 +11,10 @@ label
   vertical-align: top;
   margin: auto;
 }
+.radio-btn
+{
+    display: inline-block;
+}
 input
 {
  display: inline-block;
