@@ -1,6 +1,7 @@
 main
 {
-    flex: auto;
+    vertical-align: auto;
+    
 }
 label
 {
@@ -23,4 +24,23 @@ input
   padding: 5px;
   vertical-align: top;
   margin: auto;
+}
+select option
+{
+    width: 100%;
+}
+input[type="radio"]
+{
+    width: 100%;
+    display: inline;
+    text-align-last: right;
+}
+textarea
+{
+    display: inline-block;
+}
+button
+{
+    display: inline-block;
+    margin: auto;
 }
