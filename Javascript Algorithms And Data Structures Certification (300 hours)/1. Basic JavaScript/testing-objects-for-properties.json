@@ -1,0 +1,1 @@
+{"index.js":"// Setup\nvar myObj = {\n  gift: \"pony\",\n  pet: \"kitten\",\n  bed: \"sleigh\"\n};\n\nfunction checkObj(checkProp) {\n  // Your Code Here\n  var val = myObj[checkProp];\n  return val;\n}\nmyObj[\"house\"] = \"Not Found\";\n// Test your code by modifying these values\ncheckObj(\"gift\");"}
