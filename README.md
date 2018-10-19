@@ -2,7 +2,7 @@
 
 ---------------------------------------------------------
 
-I am adding solution to this repo regularly.Although my solutions may not 100% correct So if you want to any chages then just send a PR.
+I am adding solution to this repo regularly.Although my solutions may not 100% correct So if you want to any changes then just send a PR.
 
 [Responsive Web Design Certification (300 hours)](https://github.com/jindalAnuj/FreeCodeCamp-Solution/tree/master/Responsive%20Web%20Design%20Certification%20(300%20hours))
 
